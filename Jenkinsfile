@@ -9,7 +9,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/gopalthakur71/hit-counter.git'
 
                 // Run docker build command from Dockerfile and run a container on port 82.
-                sh '/usr/bin/docker build -t web:latest22 .'
+                sh '/usr/bin/docker build -t web:latest23 .'
                 
 
                
