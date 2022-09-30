@@ -9,7 +9,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/gopalthakur71/hit-counter.git'
 
                 // Run docker build command from Dockerfile and run a container on port 82.
-                sh '/usr/bin/docker-compose docker-compose -f docker-compose.yml -d.'
+                sh '/usr/bin/docker-compose docker-compose -f docker-compose.yml up -d.'
                 
 
                
